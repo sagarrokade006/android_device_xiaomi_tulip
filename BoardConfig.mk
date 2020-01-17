@@ -36,5 +36,8 @@ TARGET_KERNEL_CONFIG := tulip_defconfig
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
+#Turn off SoftAP MAC randomization
+WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
+
 # Inherit the proprietary files
 -include vendor/xiaomi/twolip/BoardConfigVendor.mk
