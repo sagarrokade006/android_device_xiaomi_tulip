@@ -48,9 +48,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
-    
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/twolip/twolip-vendor.mk)
