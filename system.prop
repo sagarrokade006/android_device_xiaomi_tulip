@@ -26,3 +26,6 @@ TapInterval=1ms
 TapSlop=1px
 # Havoc
 ro.havoc.maintainer=AkhilMsAchu
+
+# Netflix
+ro.netflix.bsp_rev=Q660-13149-1
