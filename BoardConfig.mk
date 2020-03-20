@@ -34,7 +34,7 @@ TARGET_OTA_ASSERT_DEVICE := tulip,twolip
 TARGET_KERNEL_CONFIG := tulip_defconfig
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2020-01-05
 
 #Turn off SoftAP MAC randomization
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
