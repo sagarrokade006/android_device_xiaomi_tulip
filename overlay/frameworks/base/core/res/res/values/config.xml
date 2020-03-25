@@ -90,4 +90,7 @@
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 	<!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">15</integer>
+    <!-- Whether device has a big physical display cutout -->
+    <bool name="config_bigPhysicalDisplayCutout">true</bool>
+
 </resources>
