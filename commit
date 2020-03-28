@@ -2,7 +2,7 @@ commit 782e28f0bbbcb76b5175aebc202ecb55074a0394
 Author: Davide Garberi <dade.garberi@gmail.com>
 Date:   Wed Dec 25 20:31:47 2019 +0100
 
-    twolip: audio: Fix incall audio while using headphones
+    tulip: audio: Fix incall audio while using headphones
     
     Change-Id: I1f3b82a457a9786d462cf35a6ab59543f53ada21
 
