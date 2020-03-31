@@ -25,7 +25,7 @@ MultitouchMinDistance=1px
 TapInterval=1ms
 TapSlop=1px
 # Havoc
-ro.havoc.maintainer=AkhilMsAchu
+ro.havoc.maintainer=death_note27
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
