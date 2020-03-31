@@ -29,5 +29,8 @@
     <dimen name="status_bar_height_portrait">89.0px</dimen>
     <dimen name="status_bar_height_landscape">89.0px</dimen>
     <dimen name="rounded_corner_radius_top">104.0px</dimen>
+    
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
 
 </resources>
