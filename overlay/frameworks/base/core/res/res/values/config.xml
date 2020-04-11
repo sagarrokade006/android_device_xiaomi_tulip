@@ -88,9 +88,15 @@
     <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
     <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
     <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
-	<!-- reference volume index for music stream to limit headphone volume and display warning -->
+    <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">15</integer>
     <!-- Whether device has a big physical display cutout -->
     <bool name="config_bigPhysicalDisplayCutout">true</bool>
 
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 </resources>
