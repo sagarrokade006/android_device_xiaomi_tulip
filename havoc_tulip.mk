@@ -39,3 +39,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="tulip-user 9 PKQ1.180904.001 V11.0.3.0.PEKMIXM release-keys"
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys"
+
+TARGET_BOOT_ANIMATION_RES := 1080x2280
+TARGET_PIXEL_CHARGE_ANIM := true
+
+# Havoc stuff
+
+export WITH_GAPPS=true
