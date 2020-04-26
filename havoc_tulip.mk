@@ -45,4 +45,4 @@ TARGET_PIXEL_CHARGE_ANIM := true
 
 # Havoc stuff
 
-export WITH_GAPPS=true
+export WITH_GAPPS=false
